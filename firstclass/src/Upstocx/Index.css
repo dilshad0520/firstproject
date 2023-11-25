@@ -1,0 +1,20 @@
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.upstoxmarket{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.upstox{
+    display: flex;
+}
+
+.upstoxwrap{
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+
+}

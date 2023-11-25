@@ -1,0 +1,32 @@
+.rainarea{
+    // width: 200px;
+    // height: 200px;
+    background-image: linear-gradient(hsl(205.55, 100%, 69.78%), hsl(209.03, 42.47%, 85.69%));
+    padding: 10px;
+    // border-radius: 30px;
+
+    &__rainweather{
+        // width: 200px;
+    height: 140px;
+        color: #fff;
+        // border-radius: 30px;
+
+        &>h2{
+            margin: 1px;
+
+        }
+        &>p{
+            margin: 1px;
+        }
+    }
+
+    &__rainimage{
+        width: 60px;
+        height: 60px;
+
+        &>img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

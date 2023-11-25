@@ -1,0 +1,176 @@
+
+
+
+.weather{
+    background-image: linear-gradient(hsl(205.55, 61.75%, 53.78%), hsl(209.03, 42.47%, 85.69%));;
+
+   
+   
+   
+    &__container{
+        max-width: 1300px;
+        margin: auto;
+      
+       &__weatherarea{
+        // text-align: center;
+        width: 870px;
+        margin: auto;
+        // color: red($color: #000000);
+
+        &__weatherinput{
+            text-align: center;
+            margin: auto;
+            width: 300px;
+
+            &>input{
+                padding: 10px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                color: #fff;
+                background-color: transparent;
+                border: 1px solid #fff;
+                &>::placeholder{
+                    color: rgb(88, 21, 143);
+                }
+            }
+
+            &>button{
+                padding: 4px 7px;
+                font-size: 20px;
+                border-radius: 5px;
+                margin-left: 10px;
+                border: none;
+            }
+        }
+        
+
+        &__weatherwrap{
+            display: flex;
+            column-gap: 20px;
+            
+     &__contentleft{
+                width: 400px;
+                border-radius: 20px;
+                padding: 10px;
+                &__weatherclouds{
+                    background-image: linear-gradient(hsl(205.55, 100%, 69.78%), hsl(209.03, 42.47%, 85.69%));
+                    margin-bottom: 20px;
+                    border-radius: 30px;
+                    padding-left: 20px;
+                    &__tagwrap{
+                        display: flex;
+                       &__weathertag{
+                        &>h3{
+                            color: #fff;
+                            font-size: 35px;
+                            margin: 1px;
+                        }
+                        &>p{
+                            color: #fff;
+                        }
+                       }
+                        &__imagecloud{
+                            width: 50px;
+                            height: 50px;
+                            &>img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                    &>h2{
+                        font-size: 30px;
+                        color: #fff;
+                        margin: 0px;
+                    }
+                    &>p{
+                        color: #fff;
+                    }
+                }
+                &__weatherday{
+                    width: 400px;
+                    height: 80px;
+                    border-radius: 30px;
+                    padding: 10px;
+                    background-image: linear-gradient(hsl(205.55, 100%, 69.78%), hsl(209.03, 42.47%, 85.69%));
+                    &__weatherdaywrap{
+                       display: flex;
+                       justify-content: space-between;
+                    }
+
+                   } 
+            }
+            &__weatherRight{
+                
+                
+                padding: 10px;
+               
+                
+                &__cloudrain{
+                    width: 400px;
+                    background-image: linear-gradient(hsl(205.55, 100%, 69.78%), hsl(209.03, 42.47%, 85.69%));
+                    padding: 10px;
+                    border-radius: 30px;
+                    height: 60px;
+                    margin-bottom: 20px;
+                   
+    
+                    &__cloudrainwrap{
+                       display: flex;
+                       justify-content: space-between;
+                    &__cloudparent{
+                       
+                        &__sunimage{
+                            width: 35px;
+                            height: 30px;
+                            &>img{
+                                width: 100%;
+                                height: 100%;
+                            }
+    
+                        }
+    
+                        &__moonimage{
+                            width: 35px;
+                            height: 30px;
+                            color: #fff;
+                            &>img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                    // &__monsoon{
+                   
+                    // }
+                }
+                }
+                &__tempreaturewrap{
+                    display: flex;
+                    justify-content: space-between;
+
+                    &__tempreturetoday{
+                        width: 200px;
+                        height: 50px;
+                        background-color: aqua;
+                    }
+                }
+
+               
+            }
+        }
+        &__forcastwrap{
+            display: flex;
+            column-gap: 20px;
+           }
+           &__rainwrap{
+            display: flex;
+           }
+       
+       }
+       
+      
+
+       
+    }
+}

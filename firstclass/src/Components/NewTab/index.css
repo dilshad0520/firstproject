@@ -1,0 +1,25 @@
+.stock{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.upstock{
+}
+.upstock h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+
+}
+.upstock h3{
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    /* text-align: center; */
+}
+.tab-wrap{
+    display: flex;
+    width: 100%;
+}

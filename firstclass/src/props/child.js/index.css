@@ -1,0 +1,7 @@
+.main{width: 400px;
+    border: 2px solid black;
+height: 600px;
+padding: 10px}
+.main img{width: 300px;
+height: 200px;}
+.main h1{color: aqua;}
